@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Password</title>
+  </head>
+  <body>
+    <h1>Change Password</h1>
+    <form action="process.php">
+      <fieldset>
+        <legend>Enter User Details</legend>
+        <label for="UserName">
+          UserName : <input type="text" id="UserName" required />
+        </label>
+
+        <br />
+        <br />
+
+        <label for="Old">
+          Old Password :
+          <input type="number" id="Old" required maxlength="10" />
+        </label>
+
+        <br />
+        <br />
+
+        <label for="New">
+          New Password :
+          <input type="number" id="New" required maxlength="10" />
+        </label>
+
+        <br />
+        <br />
+
+        <label for="content">
+          Confirm New Password :
+          <input type="number" id="Confirm" required maxlength="10" />
+        </label>
+
+        <br />
+        <br />
+        <input type="Submit" value="Submit" />
+        <input type="Reset" value="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
